@@ -1,0 +1,50 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 224px;
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 4px;
+}
+
+.nav__item--active {
+    background: rgba(31, 192, 174, 0.19);
+}
+
+.nav__item--no-margin {
+    margin-top: 0;
+}
+
+.nav__item--margin-auto {
+    margin-top: auto;
+}
+
+.nav__item:hover {
+    background: rgba(31, 192, 174, 0.19);
+}
+
+.nav__item-icon {
+    stroke: #667085;
+    height: 24px;
+    width: 24px;
+}
+
+.nav__item-icon--active {
+    stroke: #1B1B1B;
+}
+
+.nav__item-text {
+    margin-left: 12px;
+    color: #1B1B1B;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 3px;
+}

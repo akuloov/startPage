@@ -1,0 +1,19 @@
+.button-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #1FC0AE;
+    width: 88px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.button-submit:hover {
+    background: #EAECF0;
+    color: #1FC0AE;
+}

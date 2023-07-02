@@ -1,0 +1,9 @@
+.text-decoration--blue {
+    color: #009FE3;
+    white-space: nowrap;
+}
+
+.text-decoration--gray {
+    color: #EAECF0;
+    white-space: nowrap;
+}

@@ -1,0 +1,33 @@
+.main {
+    padding-top: 44px;
+    padding-bottom: 37px;
+    background: #F6F7FA;
+    width: 100%;
+}
+
+.main__wrapper {
+    padding: 32px 62px 0 62px;
+    max-width: 1036px;
+}
+
+.main__title {
+    color: #1B1B1B;
+    font-size: 48px;
+    padding-bottom: 27px;
+    border-bottom: #EAECF0 1px solid;
+    text-align: center;
+}
+
+.main__description {
+    margin-top: 22px;
+    margin-bottom: 14px;
+    display: flex;
+}
+
+.main__greeting {
+    margin-left: 20px;
+}
+
+.main__button-submit {
+    margin-left: auto;
+}

@@ -1,0 +1,38 @@
+.information {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 8px 20px;
+    width: 100%;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+}
+
+.information__title {
+    color: #1B1B1B;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 23px;
+}
+
+.information__subtitle {
+    color: #1B1B1B;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.information__subtitle--margin-none {
+    margin-bottom: 0;
+}
+
+.information__right-block {
+    margin-top: auto;
+}
+
+.information__item {
+    color: #8E99AB;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px;
+}

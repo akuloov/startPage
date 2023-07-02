@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/fonts.css" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="styles/sidebar.css" rel="stylesheet" type="text/css">
+    <link href="styles/nav.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="styles/states.css" rel="stylesheet" type="text/css">
+    <link href="styles/text-decoration.css" rel="stylesheet" type="text/css">
+    <link href="styles/information.css" rel="stylesheet" type="text/css">
+    <link href="styles/greeting.css" rel="stylesheet" type="text/css">
+    <link href="styles/order.css" rel="stylesheet" type="text/css">
+    <link href="styles/button-submit.css" rel="stylesheet" type="text/css">
+    <link href="styles/mediaQueries.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+    <aside class="sidebar">
+        <nav class="main__nav nav">
+            <div class="nav__first-block">
+                <div class="nav__item nav__item--no-margin">
+                    <svg class="nav__item-icon">
+                        <use href="images/sprite.svg#home-line"></use>
+                    </svg>
+                    <div class="nav__item-text">Головна</div>
+                </div>
+                <div class="nav__item nav__item--active">
+                    <svg class="nav__item-icon nav__item-icon--active">
+                        <use href="images/sprite.svg#bar-chart-square"></use>
+                    </svg>
+                    <div class="nav__item-text">Сторінка1</div>
+                </div>
+                <div class="nav__item">
+                    <svg class="nav__item-icon">
+                        <use href="images/sprite.svg#layers-three"></use>
+                    </svg>
+                    <div class="nav__item-text">Сторінка2</div>
+                </div>
+                <div class="nav__item">
+                    <svg class="nav__item-icon">
+                        <use href="images/sprite.svg#check-done"></use>
+                    </svg>
+                    <div class="nav__item-text">Сторінка3</div>
+                </div>
+            </div>
+            <div class="nav__item nav__item--margin-auto">
+                <svg class="nav__item-icon">
+                    <use href="images/sprite.svg#settings"></use>
+                </svg>
+                <div class="nav__item-text">Налаштування</div>
+            </div>
+        </nav>
+    </aside>
+    <main class="main">
+        <div class="main__title">Start</div>
+        <div class="main__wrapper">
+            <div class="main__states states">
+                <div class="states__state">
+                    <div class="states__circle states__circle--green"></div>
+                    <div class="states__text states__text--black">Стан1</div>
+                </div>
+                <div class="main__text-decoration--blue text-decoration--blue states__text-decoration states__text-decoration--margin-left13 states__text-decoration--margin-right6">
+                    - - - - - - - - - -
+                </div>
+                <div class="states__state">
+                    <div class="states__circle states__circle--green states__circle--border"></div>
+                    <div class="states__text states__text--black">Стан2</div>
+                </div>
+                <div class="main__text-decoration--blue text-decoration--blue states__text-decoration states__text-decoration--margin-left25 states__text-decoration--margin-right3">
+                    - - - - - - - - - -
+                </div>
+                <div class="states__state">
+                    <div class="states__circle states__circle--gray"></div>
+                    <div class="states__text states__text--gray">Стан3</div>
+                </div>
+                <div class="main__text-decoration--gray text-decoration--gray states__text-decoration states__text-decoration--margin-left25 states__text-decoration--margin-right3">
+                    - - - - - - - - - -
+                </div>
+                <div class="states__state">
+                    <div class="states__circle states__circle--gray"></div>
+                    <div class="states__text states__text--gray">Стан4</div>
+                </div>
+                <div class="states__state states__state--margin">
+                    <div class="states__circle states__circle--gray"></div>
+                    <div class="states__text states__text--gray">Стан5</div>
+                </div>
+            </div>
+            <div class="main__description">
+                <div class="main__information information">
+                    <div class="information__left-block">
+                        <div class="information__title">Information</div>
+                        <div class="information__subtitle">Info Number:</div>
+                        <div class="information__subtitle information__subtitle--margin-none">Pick up Place:</div>
+                    </div>
+                    <div class="information__right-block">
+                        <div class="information__item">903049</div>
+                        <div class="information__item">Sweden</div>
+                    </div>
+                </div>
+                <div class="main__greeting greeting">
+                    <div class="main__greeting-left-block greeting__left-block">
+                        <div class="greeting__title">We are here</div>
+                        <div class="greeting__text">Long time to go</div>
+                    </div>
+                    <img class="greeting__img" src="images/truck.png" alt="truck">
+                </div>
+            </div>
+            <div class="main__order order">
+                <div class="order__title">Перезамовте Багаж</div>
+                <div class="order__text">Дропдаун</div>
+                <div class="order__tabs">
+                    <div class="order__tabs-text">Select option</div>
+                    <svg class="order__tabs-chevron">
+                        <use href="images/sprite.svg#chevron-down"></use>
+                    </svg>
+                    <div class="order__tabs-list">
+                        <div class="order__tabs-item">Item1</div>
+                        <div class="order__tabs-item">Item2</div>
+                        <div class="order__tabs-item">Item3</div>
+                        <div class="order__tabs-item order__tabs-item--last">Item4</div>
+                    </div>
+                </div>
+                <div class="order__text">Дропдаун</div>
+                <div class="order__tabs">
+                    <div class="order__tabs-text">Select option</div>
+                    <svg class="order__tabs-chevron">
+                        <use href="images/sprite.svg#chevron-down"></use>
+                    </svg>
+                </div>
+                <div class="main__button-submit button-submit">Done</div>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="scripts/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.greeting {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 34px 0 34px 63px;
+    background: #FFF;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+}
+
+.greeting__left-block {
+    color: #1FC0AE;
+    text-align: center;
+    margin-right: 125px;
+}
+
+.greeting__title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.greeting__text {
+    font-size: 14px;
+    margin-top: 6px;
+}
